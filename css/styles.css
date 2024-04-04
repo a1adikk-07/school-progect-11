@@ -1,6 +1,10 @@
+/* РОбимо колір для заднього фону */
+
 body {
   background-color: #c2c3c8;
 }
+
+/* основні стилі для шапки сайту */
 
 .header {
   display: flex;
@@ -12,16 +16,20 @@ body {
   align-items: center;
 }
 
-.logo {
+/* .logo {
   color: #e2e9ee;
   font-size: 28px;
   text-decoration: none;
-}
+} */
+
+/* стилі для логотипу */
 
 .logo-icon {
   position: absolute;
   margin-top: -70px;
 }
+
+/* стилі для списку */
 
 .nav {
   display: flex;
@@ -30,13 +38,15 @@ body {
   gap: 48px;
 }
 
+/* стилі для елементів спску */
+
 .nav-link {
   color: #e2e9ee;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-decoration: none;
   font-size: 34px;
 }
-
+/* стилі при наведенні */
 .nav-link:hover {
   color: #fe2d2d;
   transition: 400ms;
